@@ -1,6 +1,4 @@
 body {
-  margin: 0;
-  /* text-align: center; */ }
-  body #layout-main {
-    height: 100%;
-    overflow: auto; }
+    margin: 0;
+    text-align: center;
+}

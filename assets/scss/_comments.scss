@@ -1,0 +1,159 @@
+
+.post-comments{
+
+    margin-top: 10px;
+    padding-left: 15px;
+    border-left : rgba(50,44,248,1) solid 4px ;
+
+
+    //the input form which takes in comments
+    .comment-form{
+        display: flex;
+        flex-direction: column;
+
+        //input area to take comments
+        input{
+            padding :4px 10px;
+            width: 100%;
+            border: 1px solid transparent;
+            border-radius: 20px;
+            min-height: 2rem;
+            height: fit-content;
+            outline: none;
+
+            &:active{
+                outline: none;
+            }
+
+        }
+
+        //btn to post comment
+        .post-comment-btn{
+            height: 20px;
+            width:fit-content;
+            margin-top: 10px;
+             background-color: rgba(2,0,36,1) ;
+            color: white;
+             font-size: 0.8rem;
+             padding: 5px;
+             border-radius:5px;
+             
+             outline: none;
+ 
+             &:hover{
+                 cursor: pointer;
+             }
+ 
+             &:active{
+                 outline: none;
+                 transform: scale(0.95);
+                 border: none;
+             }
+ 
+        }
+
+    }
+
+    .post-comments-list{
+
+        ul{
+            list-style: none;
+            padding: 0;
+            margin-top :4px;
+            padding-left:4px;
+        
+
+            li{
+
+                margin-top: 10px;
+                padding-left: 10px;
+                border-left: 1px solid rgba(152,92,249,1) ;
+                h4{
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    padding: 4px;
+                    color:rgba(152,92,249,1)
+                }
+    
+                .comments-content{
+                    margin-top: 5px;
+                    padding: 5px;
+                    background-color:rgba(152,92,249,1) ;
+                    width: 90%;
+                    border: 2px solid rgba(152,92,249,1);
+                    border-radius: 40px;
+                    font-size: 0.8rem;
+                    color : white;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: inherit;
+
+                    &:link , &:active ,&:visited
+                    {
+                        color: inherit;
+                    }
+                }
+
+                .comments-delete-btn {
+                    height: 20px;
+                    width:fit-content;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                     background-color: rgba(2,0,36,1) ;
+                    color: white;
+                     font-size: 0.8rem;
+                     padding: 5px;
+                     border-radius:5px;                     
+                     outline: none;
+                     border: none;
+         
+                     &:hover{
+                         cursor: pointer;
+                     }
+         
+                     &:active{
+                         outline: none;
+                         transform: scale(0.95);
+                         border: none;
+                     }
+        
+                }
+                button.like-btn{
+                
+                    
+                        height: 20px;
+                        width:fit-content;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: rgba(255, 255, 255, 0.076);
+                        color: white;
+                        font-size: 0.8rem;
+                        padding: 5px;
+                        border-radius:5px;                     
+                        outline: none;
+                        border: none;
+            
+                        &:hover{
+                            cursor: pointer;
+                        }
+            
+                        &:active{
+                            outline: none;
+                            transform: scale(0.95);
+                            border: none;
+                        }
+                   
+                }
+            }
+
+           
+        }
+
+
+    }
+
+}
