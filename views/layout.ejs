@@ -2,22 +2,47 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> <%= locals.title %> </title>
-    <link rel="stylesheet" href="/css/layout.css">
-    <%- style %>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> <%= locals.title %> </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="/css/layout.css">
+  <%- style %>
 </head>
 
 <body>
-    <%- include('_header'); %>
+  <%- include('_header'); %>
 
-    <%- body %>
+  <%- body %>
 
-    <%- include('_footer'); %>
+  <%- include('_footer'); %>
 
-    <%- script %>
+  <%- script %>
+  <script>
+    <% if(flash.success && flash.success.length > 0) { %>
+    new Noty({
+      theme: 'relax',
+      text: "<%= flash.success %>",
+      type: 'success',
+      layout: 'topRight',
+      timeout: 1500
+    }).show();
+    <% } %>
+
+    <% if(flash.error && flash.error.length > 0) { %>
+    new Noty({
+      theme: 'relax',
+      text: "<%= flash.error %>",
+      type: 'error',
+      layout: 'topRight',
+      timeout: 1500
+    }).show();
+    <% } %>
+
+  </script>
 </body>
 
 </html>
