@@ -25,6 +25,9 @@ Existing social media applications are very vast and the connections are widespr
 - [MongoDB](https://docs.mongodb.com/)
 - [Express JS](https://expressjs.com/)
 - [Node JS](https://nodejs.org/en/docs/)
+- [HTML](https://html.com/)
+- [Javascript](https://www.javascript.com/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 **Conclusion 😇:**
 
