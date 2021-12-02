@@ -2,13 +2,13 @@
 
 **Team Members 👨🏻‍💻:**
 
-1. Abuzar Bagewadi​ 19BCE0773​
+1. [Abuzar Bagewadi](https://github.com/abuzarbagewadi)​ 19BCE0773​
 
-2. Daksh Paleria​ 19BCE0779​
+2. [Daksh Paleria](https://github.com/dakshp07)​ 19BCE0779​
 
-3. Shaik MD Irfan Nawaz​ 19BCE0780​
+3. [Shaik MD Irfan Nawaz](https://github.com/Irfan-vit)​ 19BCE0780​
 
-4. Neelesh Sharma​ 19BCE0768​
+4. [Neelesh Sharma](https://github.com/Neelesh2512)​ 19BCE0768​
 
 **Abstract ✅:**
 
