@@ -21,9 +21,9 @@ Present social media applications are very vast and the connections are widespre
 
 **Tech Stack 📚:**
 
-- MongoDB
-- Express JS
-- Node JS
+- [MongoDB](https://docs.mongodb.com/)
+- [Express JS](https://expressjs.com/)
+- [Node JS](https://nodejs.org/en/docs/)
 
 **Conclusion 😇:**
 
