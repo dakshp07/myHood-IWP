@@ -1,9 +1,13 @@
-<h1>sign Up</h1>
+<link rel="stylesheet" href="/css/signup.css">
+<div class="main">
+    <h1 class="heading">Welcome to MyHood</h1>
+    <h1 class="signup">Sign Up</h1>
 
-<form action="/users/create" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <input type="password" name='password' placeholder="Your Password" required>
-    <input type="password" name='confirm_password' placeholder="Confirm Password" required>
-    <input type="submit" value="Sign Up">
-</form>
+    <form action="/users/create" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="password" name='password' placeholder="Your Password" required>
+        <input type="password" name='confirm_password' placeholder="Confirm Password" required>
+        <input type="submit" value="Sign Up" class="submit">
+    </form>
+</div>

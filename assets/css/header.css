@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+header{
+    margin-top: -16px;
+
+}
+
+.headerList{
+    list-style-type: none;
+    background-color: rgb(94, 83, 238);
+    overflow: hidden;
+    margin-top: -67px;
+    
+
+}
+h4{
+    padding: 9px;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+}
+
+button{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(156, 25, 69);
+    background-color: palevioletred;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(224, 53, 110);;
+}

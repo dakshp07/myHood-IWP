@@ -1,20 +1,28 @@
+<link rel="stylesheet" href="/css/header.css">
+
 <header>
-    Page Header
-    <ul>
-        <% if (locals.user) { %>
-        <li>
-            <a href="/users/profile"> <%= user.name %> </a>
-        </li>
-        <li>
-            <a href="/users/sign-out">Sign Out</a>
-        </li>
-        <% }else { %>
-        <li>
-            <a href="/users/sign-in">Sign In</a>
-        </li>
-        <li>
-            <a href="/users/sign-up">Sign Up</a>
-        </li>
-        <% } %>
-    </ul>
+    <div class="logo">
+        <h4>MyHood</h4>
+        <ul class="headerList">
+            <% if (locals.user) { %>
+            <li>
+                <a href="/users/sign-out">
+                    <button>Sign out</button>
+                </a>
+            </li>
+            <% }else { %>
+            <li>
+                <a href="/users/sign-in">
+                    <button>Sign In</button>
+                </a>
+            </li>
+            <li>
+                <a href="/users/sign-up">
+                    <button>Sign Up</button>
+                </a>
+            </li>
+            <% } %>
+        </ul>
+    </div>
+    
 </header>

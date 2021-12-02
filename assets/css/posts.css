@@ -1,0 +1,69 @@
+.delete-post-button{
+    color: white;
+    background-color: rgb(214, 64, 64);
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 1px solid red; 
+}
+
+.delete-post-button:hover{
+    background-color: red;
+}
+
+small{
+    margin: 0 10px 0 10px;
+}
+
+.postby{
+ font-weight: bold;
+ color: black;
+}
+
+.Post{
+    width: 90%;
+    background-color: rgb(166, 82, 245);
+    padding: 0 50px 20px 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 0, 179);
+    margin: 5px 0 5px -40px;
+}
+
+.replies{
+    display: flex;
+}
+
+.reply{
+    list-style-type: none; 
+    background-color: rgb(192, 190, 190); 
+    padding: 0 0 0 10px; 
+    border-radius: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.input{
+    padding: 10px;
+}
+
+.comment{
+    background-color: greenyellow;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+#posts-list-container{
+    margin-top: 10px;
+    border-radius: 0 0 10px 10px;
+    height: 550px;
+    background-color: brown;
+    /* overflow-y: auto; */
+    overflow-y: scroll;
+}
+
+.post-comments-list{
+    background-color: rgba(0, 0, 0, 0.384);
+    max-height: 260px;
+    overflow-y: scroll;
+    margin-top: 5px;
+    border-radius: 10px;
+}
